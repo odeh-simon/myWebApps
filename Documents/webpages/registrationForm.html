@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>REGISTRATION FORM</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="registration.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse" id="nav">
+	<div class="container-fluid">
+	<div class="header">
+		<div class="row">
+			
+			<div class="col-md-1">
+				<a href="https://imgur.com/xnSl053"><img src="https://i.imgur.com/xnSl053m.png" alt="school logo" class="img-rounded, img-responsive"  /></a>
+				
+			</div>
+
+			<div>
+				<br />
+			</div>
+			<div class="navbar-header, col-md-4">
+			<a class="navbar-brand" href="https://codepen.io/odeh-simon/pen/MWmPEeW"><strong style="color:#fff; font-size:150%;">Federal University of Nigeria</strong></a>
+			</div>
+
+			<div class="col-md-5">
+				
+					
+						<ul class="nav navbar-nav">
+							
+							<li><a href="https://codepen.io/odeh-simon/pen/MWmPEeW">Home</a> </li>
+							<li><a href="#" > Academic</a></li>
+							<li><a href="#" > About Us</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#" >Faculties
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Sciences</a></li>
+									<li><a href="#">Arts</a></li>
+									<li><a href="#">Law</a></li>
+									<li><a href="#">CHS</a></li>
+									<li><a href="#">Environmental sciences</a></li>
+									<li><a href="#">Social Sciences</a></li>
+
+									
+								</ul>
+
+							</li>
+					</ul>
+					</div>
+					<div class="col-md-2">
+					<ul class="nav navbar-nav nav-right">
+						
+							<li ><a href="https://codepen.io/odeh-simon/pen/WNjaZxm"><span class="glyphicon glyphicon-log-in"> <strong>Login</strong></span></a></li>
+							<li class="active"><a href="https://codepen.io/odeh-simon/pen/mdmzBmL"><span class="glyphicon glyphicon-user"> <strong>Register</strong></span></a></li>
+		
+							
+						</ul>
+						</div>
+					</div>
+						
+				</div>
+			
+		</div>
+	</div>
+		
+	</nav>
+
+
+	<div>
+<h1 class="text-center" id="head"><strong>Student Registration Form</strong></h1>
+</div>
+	<div class="container">
+		
+		
+		<br />
+   <!-- <h2 class="text-center"><small id="info">STUDENT INFORMATION</small></h2>-->
+		<form>
+      <div class="form-group">
+				<!--<div class="col-md-6">-->
+				<input type="submit" name="submit" value="STUDENT INFORMATION" class="form-control, btn-block" id="submit" >
+				</div>
+			<div class="form-group, row">
+				<div class="col-md-6">
+				<label>Name:</label>
+				<input type="textbox" name="name" id="name" class="form-control" required placeholder="First name">
+		</div>
+		<div class="col-md-6">
+			<label><br /></label>
+				<input type="textbox" name="surname" id="surname" class="form-control" required placeholder="Last name">
+			</div>
+
+		</div>
+		<br />
+
+				<div class="form-group">
+					
+					<label for="address"> Address:</label>
+					<input type="text" class="form-control"  name="address" id="address" required placeholder="street Address">
+
+				</div>
+
+				<div class="form-group">
+					<input type="textbox" name="address 2" class="form-control" placeholder="stree address line 2">
+
+				</div>
+
+				<div class="form-group, row">
+					<div class="col-md-6">
+					<input type="textbox" name="city" placeholder="city" class="form-control">
+				</div>
+				<div class="col-md-6">
+					<input type="textbox" name="region" placeholder="Region" class="form-control">
+				</div>
+
+				</div>
+
+				<div class="form-group">
+					
+
+				</div>
+
+
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" name="email" required class="form-control" id="email">
+
+			</div>
+
+			<div class="form-group">
+				<label for="phone">Phone:</label>
+				<input type="tel" name="phone" id="phone" class="form-control">
+
+			</div>
+			
+			<div class="form-group">
+				<fieldset id="group1"	>
+					<label for="radio">Select Your Membership Level:</label>
+					<br />
+					<small>Life Member</small><br />
+					<input type="radio" name="radio" id="radio" value="Individual"> Individual <br />
+					<input type="radio" name="radio" id="radio" value="Family"> Family <br />
+					<br />
+					</fieldset>
+				</div>
+				
+			
+				<div class="form-group">
+					<fieldset id="group2">
+					<small>Annual Member</small>
+					<br />
+
+					<input type="radio" name="radio2" id="radio2" value="Individual"> Individual <br />
+					<input type="radio" name="radio2" id="radio2" value="Family"> Family<br />
+					<input type="radio" name="radio2" id="radio2" value="Student"> Student<br />
+					<input type="radio" name="radio2" id="radio2" value="Educator"> Educator <br />
+
+					</fieldset>
+			</div>
+			
+			<div class="form-group">
+				<!--<div class="col-md-6">-->
+				<input type="submit" name="submit" value="submit" class="form-control, btn-block" id="submit" >
+				</div>
+			</div>
+
+
+		</form>
+		
+
+	</div>
+
+</body>
+</html>

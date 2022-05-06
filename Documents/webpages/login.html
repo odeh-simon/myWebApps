@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<title>Login Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<link rel="stylesheet" type="text/css" href="logincss.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+</script>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse" id="nav">
+	<div class="container-fluid">
+	<div class="header">
+		<div class="row">
+			
+			<div class="col-md-1">
+				<a href="https://imgur.com/xnSl053"><img src="https://i.imgur.com/xnSl053m.png" alt="school logo" class="img-rounded, img-responsive"  /></a>
+				
+			</div>
+
+			<div>
+				<br />
+			</div>
+			<div class="navbar-header, col-md-4">
+			<a class="navbar-brand" href="school_portal.html"><strong style="color:#fff; font-size:150%;">Federal University of Nigeria</strong></a>
+			</div>
+
+			<div class="col-md-5">
+				
+					
+						<ul class="nav navbar-nav">
+							
+							<li ><a href="school_portal.html">Home</a> </li>
+							<li><a href="#" > Academic</a></li>
+							<li><a href="#" > About Us</a></li>
+
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#" >Faculties
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Sciences</a></li>
+									<li><a href="#">Arts</a></li>
+									<li><a href="#">Law</a></li>
+									<li><a href="#">CHS</a></li>
+									<li><a href="#">Environmental sciences</a></li>
+									<li><a href="#">Social Sciences</a></li>
+
+									
+								</ul>
+
+							</li>
+					</ul>
+					</div>
+					<div class="col-md-2">
+					<ul class="nav navbar-nav nav-right">
+						
+							<li class="active"><a href="bootstrap form.html"><span class="glyphicon glyphicon-log-in"> <strong>Login</strong></span></a></li>
+							<li><a href="register form.html"><span class="glyphicon glyphicon-user"> <strong>Register</strong></span></a></li>
+		
+							
+						</ul>
+						</div>
+					</div>
+						
+				</div>
+			
+		</div>
+	</div>
+		
+	</nav>
+
+
+<div class="container">
+<div class="center-block">
+<form action=" " target="_blank" onsubmit="submitForm()">
+	<h1 id="login">Login</h1>
+<div class="input-group">
+	<span class="input-group-addon"> <i class="glyphicon glyphicon-user"></i></span>
+	<input type="text" class="form-control, col-md-*" name="username" id="pass" placeholder="Username" required>
+</div>
+<br />
+
+
+<div class="input-group">
+	<span class="input-group-addon"> <i class="glyphicon glyphicon-lock"></i></span>
+	<input type="Password" class="form-control, col-md-*" name="Password" id="pass" placeholder="password" required>
+</div>
+<br />
+
+<a href="#uname" id="forgotten">forgoten password?</a><br />
+<br />
+
+<input type="submit" name="submit" id="submit" value="submit">
+
+</form>
+
+
+</div>
+</div>
+<script>
+	
+	function submitForm() {
+		alert("form submitted successfully");
+	}
+</script>
+
+
+
+</body>
+</html>
